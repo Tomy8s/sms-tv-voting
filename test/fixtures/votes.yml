@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  received: 
+  campaign: 
+  validity: 
+  choice: MyString
+
+two:
+  received: 
+  campaign: 
+  validity: 
+  choice: MyString
