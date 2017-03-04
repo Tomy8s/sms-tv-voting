@@ -1,0 +1,6 @@
+<h1>Results</h1>
+<% @campaigns.each do |camp| %>
+  <div class="campaign">
+    <h2 class="campaign-name"><%= link_to camp, campaign_path(camp) %></h2>
+  </div>
+<% end %>
