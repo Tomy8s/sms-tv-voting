@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'campaigns/results'
+
   get 'results/index'
 
   root 'results#index'

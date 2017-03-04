@@ -4,7 +4,7 @@
     <h2 class="campaign-name"><%= camp %></h2>
     <p class="candidate">
       <% @votes.distinct.pluck(:candidate).each do |cand| %>
-        <p><%= cand %></p>
+        <p><%= cand %>: <%= @votes.where(candidate: cand).count %></p>
       <% end %>
     </p>
   </div>
