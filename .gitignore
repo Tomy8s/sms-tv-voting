@@ -1,4 +1,5 @@
-
+# Ignore 'votes.txt'
+votes.txt
 
 # Ignore bundler config.
 /.bundle
