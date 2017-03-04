@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
-  get 'results/index'
-
-  root 'results#index'
+  root 'campaigns#index'
 
   resources :campaigns
 end
