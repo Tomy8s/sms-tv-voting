@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'campaigns#index'
+  root 'campaigns #index'
 
   resources :campaigns
 end
